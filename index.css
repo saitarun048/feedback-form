@@ -1,0 +1,36 @@
+ .forms{
+     float: right;   
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url('picture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2,.box{
+      text-align: center;
+    
+}
+
+#heading{
+    font-size: 30px;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    border-radius: 20px;
+    width: 80%;
+    padding: 2%;
+}
+input[type="submit"] {
+    background-image: linear-gradient(to right, rgb(21, 85, 104), rgb(102, 201, 44));
+    width: 80%;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
